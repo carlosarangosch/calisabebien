@@ -403,7 +403,7 @@ p {
 
 .recetas2 {
   /*min-height: 700px;*/
-  background: #fff url(../images/5.jpg) repeat center center;
+  background-color: #221f19;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
