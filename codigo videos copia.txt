@@ -1,0 +1,35 @@
+<!--<div class="your-centered-div">
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ig3qHRVZRvM" frameborder="0" allowfullscreen=""></iframe>
+
+	</div>-->
+
+
+
+
+
+					<!--<div class="centrar-imagen">
+
+
+						<div>
+							<iframe class="embed-responsive-item" width="1000" height="500" src="//www.youtube.com/embed/ePbKGoIGAXY" frameborder="0" allowfullscreen=""></iframe>
+						</div>
+					</div>
+
+
+					<div class="col-md-12">
+
+
+						<div class="embed-responsive embed-responsive-16by9">
+
+
+							<div>
+								<iframe class="embed-responsive-item" width="1000" height="500" src="//www.youtube.com/embed/ePbKGoIGAXY" frameborder="0" allowfullscreen=""></iframe>
+							</div>
+						</div>
+					</div>-->
+
+					<!--<div class="containervideo">
+<iframe src="//www.youtube.com/embed/yCOY82UdFrw"
+frameborder="0" allowfullscreen class="video2"></iframe>
+</div>-->
