@@ -29,17 +29,59 @@
   margin-left: -24px;
 }
 
-#parraforecetas {
+.parrafoseccion {
   font-size: 20px;
   line-height: 1.5;
   margin-bottom: 30px;
+  text-align: center;
 }
-
-#textorecetas {
+.parrafoseccioncolor1 {
+color: #a99c92;
+}
+.parrafoseccioncolor2 {
+color: #ffffff;
+}
+.headerseccion{
+  text-align: center;
+margin-top: 80px;
+}
+.títuloseccion {
   font-size: 50px;
+  color:#008ecf;
   font-style: italic;
   padding-bottom: 30px;
   margin-bottom: 30px;
+}
+
+
+.tituloseccion {
+
+  color:#004c6c;
+  font-size: 50px;
+      font-style: italic;
+      position: relative;
+      padding-bottom: 30px;
+      margin-bottom: 30px;
+
+}
+
+.tituloseccion-sombra1{
+  text-shadow: 0px 3px 3px #929292;
+}
+
+.tituloseccion-sombra2{
+  text-shadow: 0px 3px 3px #272020;
+}
+
+.tituloseccion:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 40px;
+    height: 2px;
+    left: 50%;
+    background: #fb6e14;
+    margin-left: -20px;
 }
 
 .fondopati {
@@ -85,7 +127,7 @@
 
 #social_side_links {
   position: fixed;
-  top: 70px;
+  top: 50%;
   right: 0;
   padding: 0;
   list-style: none;
@@ -208,7 +250,7 @@ p {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Playfair Display", serif;
+  font-family: 'Roboto', serif;
   font-size: 12px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -658,17 +700,107 @@ p {
 
 /*TAMAÑOS DESDE TABLET Y CELULAR*/
 
+@media screen and (min-width: 1200px) {
+  #textovideo {
+      font-size: 15px;
+
+  }
+  body {
+
+    font-size: 15px;
+
+}
+.tituloseccion {
+
+  font-size:40px !important;
+
+}
+.parrafoseccion {
+  font-size: 15px;
+
+}
+.container{
+  width: 1000px;
+}
+blockquote {
+    font-size: 15px;
+}
+.card .card-title {
+    font-size: 20px;
+    font-weight: 300;
+}
+}
+
 @media screen and (max-width: 1200px) {
+
+  body {
+
+    font-size: 15px;
+
+}
+.tituloseccion {
+
+  font-size:40px !important;
+
+}
+.parrafoseccion {
+  font-size: 15px;
+
+}
+
+blockquote {
+    font-size: 15px;
+}
+.card .card-title {
+    font-size: 20px;
+    font-weight: 300;
+}
+}
+
+@media screen and (max-width: 767px) {
   .header-principal {
     height: 100% !important;
   }
   #textovideo {
-    margin-top: 60px !important;
+    margin-top: 40px !important;
     margin-bottom: 30px !important;
   }
   #fh5co-about .fh5co-2col {
     width: 100%;
   }
+  #textovideo {
+      font-size: 15px;
+
+  }
+  body {
+
+    font-size: 15px;
+
+}
+.tituloseccion {
+
+  font-size:40px !important;
+
+}
+.parrafoseccion {
+  font-size: 15px;
+
+}
+
+blockquote {
+    font-size: 15px;
+}
+.card .card-title {
+    font-size: 20px;
+    font-weight: 300;
+}
+#logo2 {
+    width: 250px;
+    height: 250px;
+}
+#scroll{
+  width: 50px;
+}
 }
 
 #fh5co-about .fh5co-text {
@@ -1812,6 +1944,17 @@ p {
 
 .main-wrapper {
   height: 100vh;
+}
+
+.cards-btn-center{
+  text-align: center;
+}
+.cards-collapsed{
+  margin-bottom: 20px;
+}
+.cards-title-shadow{
+      z-index: 10;
+      text-shadow: 0px 3px 3px #000000;
 }
 
 /*# sourceMappingURL=style.css.map */
