@@ -18,6 +18,13 @@
 
 }*/
 
+.row{
+  margin-bottom: 20px !important;
+}
+.row-no-margin-bottom{
+  margin-bottom: 0px !important;
+}
+
 .iconoseccion {
   height: 61px;
   width: 61px;
@@ -36,7 +43,7 @@
   text-align: center;
 }
 .parrafoseccioncolor1 {
-color: #a99c92;
+color: #545454;
 }
 .parrafoseccioncolor2 {
 color: #ffffff;
@@ -176,8 +183,8 @@ margin-top: 80px;
 }
 
 #logo2 {
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
 }
 
 #imagentip {
@@ -191,7 +198,8 @@ margin-top: 80px;
 }
 
 #logomenu {
-  width: 196px;
+  width: 150px;
+  padding-bottom: 5px;
 }
 
 #logomenu2 {
@@ -700,7 +708,21 @@ p {
 
 /*TAMAÑOS DESDE TABLET Y CELULAR*/
 
+@media screen and (min-width: 1400px) {
+.container{
+  width: 1100px;
+}
+
+}
+
 @media screen and (min-width: 1200px) {
+.container{
+  width: 1000px;
+}
+
+}
+
+@media screen and (min-width: 768px) {
   #textovideo {
       font-size: 15px;
 
@@ -719,9 +741,7 @@ p {
   font-size: 15px;
 
 }
-.container{
-  width: 1000px;
-}
+
 blockquote {
     font-size: 15px;
 }
@@ -1955,6 +1975,14 @@ blockquote {
 .cards-title-shadow{
       z-index: 10;
       text-shadow: 0px 3px 3px #000000;
+}
+.cards-title-small{
+  font-size: 15px !important;
+      width: 100%;
+}
+
+.footer{
+      padding-top: 40PX;
 }
 
 /*# sourceMappingURL=style.css.map */
