@@ -754,12 +754,12 @@ p {
 }
 
 #fh5co-sayings {
-  padding: 7em 0;
+  padding: 1em 0;
 }
 
 @media screen and (max-width: 768px) {
   #fh5co-sayings {
-    padding: 5em 0;
+    padding: 1em 0;
   }
 }
 
@@ -836,7 +836,7 @@ p {
 }
 
 #fh5co-featured {
-  padding: 7em 0;
+  padding: 1em 0;
   background: #ffff url(../images/cenefa2.jpg) repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -847,7 +847,7 @@ p {
 
 @media screen and (max-width: 768px) {
   #fh5co-featured {
-    padding: 5em 0;
+    padding: 1em 0;
   }
 }
 
@@ -1095,12 +1095,12 @@ p {
 }
 
 #fh5co-menus {
-  padding: 7em 0;
+  padding: 1em 0;
 }
 
 @media screen and (max-width: 768px) {
   #fh5co-menus {
-    padding: 5em 0;
+    padding: 1em 0;
   }
 }
 
@@ -1238,7 +1238,7 @@ p {
 }
 
 #fh5co-events {
-  padding: 7em 0;
+  padding: 1em 0;
   background-color: transparent;
   background-size: cover;
   background-attachment: fixed;
@@ -1284,7 +1284,7 @@ p {
 
 @media screen and (max-width: 768px) {
   #fh5co-events {
-    padding: 5em 0;
+    padding: 1em 0;
   }
 }
 
@@ -1352,19 +1352,19 @@ p {
 }
 
 #fh5co-contact {
-  padding: 7em 0;
+  padding: 1em 0;
   /*background: #ffff url/*(../images/fondotip1.jpg) repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover*/
-    
+
     background-color: #e6e6e6;
 }
 
 @media screen and (max-width: 768px) {
   #fh5co-contact {
-    padding: 5em 0;
+    padding: 1em 0;
   }
 }
 
@@ -1375,7 +1375,7 @@ p {
 
 @media screen and (max-width: 768px) {
   #fh5co-contact {
-    padding: 5em 0;
+    padding: 1em 0;
   }
 }
 
@@ -1454,7 +1454,7 @@ p {
 
 @media screen and (max-width: 768px) {
   #fh5co-footer {
-    padding: 5em 0;
+    padding: 1em 0;
   }
 }
 
@@ -1691,7 +1691,7 @@ p {
 }
 
 #fh5co-type {
-  padding: 7em 0;
+  padding: 1em 0;
   background-color: transparent;
   background-size: cover;
   background-attachment: fixed;
