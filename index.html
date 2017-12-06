@@ -74,7 +74,7 @@
 
 
 	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
+
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
@@ -84,7 +84,7 @@
 
 <body>
 	<!--MATERIAL-->
-	<script type="text/javascript" src="js/materialize.min.js"></script>
+
 	<div class="main-wrapper">
 
 		<!-- Social Icons -->
@@ -92,17 +92,28 @@
 
 
 			<ul id="social_side_links">
-				<li><a style="background-color: #3c5a96;" href="https://facebook.com" target="_blank"><img src="images/facebook-icon.png" alt="" /></a></li>
-				<li><a style="background-color: #1dadeb;" href="https://twitter.com" target="_blank"><img src="images/twitter-icon.png" alt="" /></a></li>
-				<li><a style="background-color: #1178b3;" href="https://linkedin.com" target="_blank"><img src="images/linkedin-icon.png" alt="" /></a></li>
-				<li><a style="background-color: #8a3ab9;" href="https://linkedin.com" target="_blank"><img src="images/instagram-icon.png" alt="" /></a></li>
+				<li>
+					<a style="background-color: #3c5a96;" href="https://facebook.com" target="_blank"><img src="images/facebook-icon.png" alt="" /></a>
+				</li>
+				<li>
+					<a style="background-color: #1dadeb;" href="https://twitter.com" target="_blank"><img src="images/twitter-icon.png" alt="" /></a>
+				</li>
+				<li>
+					<a style="background-color: #1178b3;" href="https://linkedin.com" target="_blank"><img src="images/linkedin-icon.png" alt="" /></a>
+				</li>
+				<li>
+					<a style="background-color: #8a3ab9;" href="https://linkedin.com" target="_blank"><img src="images/instagram-icon.png" alt="" /></a>
+				</li>
 			</ul>
 		</div>
 
 
 
-		<div class="section header-principal" data-section="home">
 
+		<div class="header-principal parallax-container">
+
+
+		     <div class="parallax"><div class="parrallax-custom-layer"><img src="images/1505.jpg"></div></div>
 
 
 
@@ -197,24 +208,22 @@
 					<div class="fh5co-menu-2">
 
 
-						<a href="#" data-nav-section="home">Home</a>
+						<a href="index.html" class="logo-link-menu"><img src="images/logo4.svg" id="logomenu"></a>
 						<a href="#" data-nav-section="danncarton">Una Navidad por lo Alto</a>
 						<a href="#" data-nav-section="events">Cervalle</a>
 						<a href="#" data-nav-section="menu">Los Reblujos de Pati</a>
 						<a href="#" data-nav-section="reservation">Trucos de cocina para Navidad</a>
 						<a href="#" data-nav-section="features">Recetas tradicionales</a>
-						<a href="#" data-nav-section="home" class="logo-link-menu"><img src="images/logo4.svg" id="logomenu"></a>
+
 					</div>
 				</div>
 			</div>
 		</div>
-
-		<div id="danncarton" data-section="danncarton">
+		<div class="section1" data-section="danncarton">
 			<div class="container">
 
 				<div class="row">
 					<div class="col-md-12 headerseccion">
-						<img src="images/vino.png" class="iconoseccion" class="img-responsive">
 						<h2 class="tituloseccion tituloseccion-sombra1">¡Vive por lo alto esta Navidad!</h2>
 					</div>
 					<div class="col-md-12">
@@ -232,7 +241,7 @@
 					<div class="row">
 						<div class="col-md-12 text-center">
 							<div class="card-panel  blue darken-1">
-								<span class="white-text">Sin duda el Tony Roma’s es el lugar ideal para disfrutar de las mejores carnes y de una excelente parrilla. En este diciembre lleno de ocasiones especiales, no te pierdas los mejores platos que sólo un restaurante de esta categoría puede ofrecer:</span>
+								<span class="white-text">Tony Roma’s es el lugar ideal para disfrutar de las mejores carnes y de una excelente parrilla. En este diciembre lleno de ocasiones especiales, no te pierdas los mejores platos que sólo un restaurante de esta categoría puede ofrecer:</span>
 							</div>
 						</div>
 					</div>
@@ -240,38 +249,67 @@
 						<div class="col-md-4">
 
 							<div class="card">
+
 								<div class="card-image text-center">
-									<div class="fade-header"></div>
-									<img src="images/3.jpg">
+									<a data-toggle="modal" data-target="#modalTony1">
+										<img class="modal-card-small-img" src="images/3.jpg">
+									</a>
 									<span class="card-title cards-title-shadow cards-title-small">Costilla Tradicional Tony Roma's</span>
 								</div>
 
 							</div>
 						</div>
 
+						<!-- Modal 1 -->
+						<div class="modal fade" id="modalTony1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+							<div class="modal-dialog" role="document">
+							 <img class="modal-img-custom" src="images/3.jpg">
+							</div>
+						</div>
+
 						<div class="col-md-4">
 
 							<div class="card">
 								<div class="card-image text-center">
-									<div class="fade-header"></div>
-									<img src="images/3.jpg">
+
+									<a data-toggle="modal" data-target="#modalTony2">
+										<img class="modal-card-small-img" src="images/3.jpg">
+									</a>
 									<span class="card-title cards-title-shadow cards-title-small">Costilla Estilo St. Louis</span>
 								</div>
 
 							</div>
 						</div>
 
+						<!-- Modal 2 -->
+						<div class="modal fade" id="modalTony2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+							<div class="modal-dialog" role="document">
+							 <img class="modal-img-custom" src="images/3.jpg">
+							</div>
+						</div>
+
 						<div class="col-md-4">
 
 							<div class="card">
 								<div class="card-image text-center">
-									<div class="fade-header"></div>
-									<img src="images/3.jpg">
+
+									<a data-toggle="modal" data-target="#modalTony3">
+										<img class="modal-card-small-img" src="images/3.jpg">
+									</a>
 									<span class="card-title cards-title-shadow cards-title-small">Costilla Jack Daniel's</span>
 								</div>
 
 							</div>
 						</div>
+
+						<!-- Modal 3 -->
+						<div class="modal fade" id="modalTony3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+							<div class="modal-dialog" role="document">
+							 <img class="modal-img-custom" src="images/3.jpg">
+							</div>
+						</div>
+
+
 					</div>
 					<div class="row">
 
@@ -280,11 +318,20 @@
 
 							<div class="card">
 								<div class="card-image text-center">
-									<div class="fade-header"></div>
-									<img src="images/3.jpg">
+
+									<a data-toggle="modal" data-target="#modalTony4">
+										<img class="modal-card-small-img" src="images/3.jpg">
+									</a>
 									<span class="card-title cards-title-shadow cards-title-small">Lomo rostizado con salsa de tres quesos</span>
 								</div>
 
+							</div>
+						</div>
+
+						<!-- Modal 4 -->
+						<div class="modal fade" id="modalTony4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+							<div class="modal-dialog" role="document">
+							 <img class="modal-img-custom" src="images/3.jpg">
 							</div>
 						</div>
 
@@ -292,11 +339,20 @@
 
 							<div class="card">
 								<div class="card-image text-center">
-									<div class="fade-header"></div>
-									<img src="images/3.jpg">
+
+									<a data-toggle="modal" data-target="#modalTony5">
+										<img class="modal-card-small-img" src="images/3.jpg">
+									</a>
 									<span class="card-title cards-title-shadow cards-title-small">Salmón al estilo Teriyaki</span>
 								</div>
 
+							</div>
+						</div>
+
+						<!-- Modal 5 -->
+						<div class="modal fade" id="modalTony5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+							<div class="modal-dialog" role="document">
+							 <img class="modal-img-custom" src="images/3.jpg">
 							</div>
 						</div>
 
@@ -312,328 +368,330 @@
 						</div>
 						<div class="card-stacked">
 							<div class="card-content">
-								<p>Disfruta de una experiencia completa en diciembre con el Dan Carlton. No te pierdas el 24 y 31 de diciembre un par de cenas pensadas para celebrar en grande junto a toda la familia. Así mismo, la fiesta de fin de año promete ser el mejor evento
-									para concluir el año. </p>
+								<p>Disfruta de una experiencia completa en diciembre con el Dan Carlton. No te pierdas el 24 y 31 de diciembre un par de cenas pensadas para celebrar en grande junto a toda la familia. Esta gran rumba de fin de año promete ser el mejor evento
+									para concluir el 2017. </p>
 								<br>
-
-							</br>
-								<p>La espectacular orquesta internacional de Luis Felipe González, ex vocalista de la agrupación venezolana “Nelson y sus Estrellas”, se encargará de animar la víspera de año nuevo. Para realizar tus reservas llama a los teléfonos (2)8933000 o (2)886300.</p>
+								<p>La espectacular orquesta internacional de Luis Felipe González, ex vocalista de la agrupación venezolana “Nelson y sus Estrellas”, se encargará de animar la víspera de año nuevo.</p>
+								<br>
+								<p class="text-center"><strong>Para realizar tus reservas llama a los teléfonos (2)8933000 o (2)886300. </strong></p>
 							</div>
 						</div>
 					</div>
 
 				</div>
 			</div>
-
-
-			<div class="recetas2" data-section="features">
-				<div class="container">
-
-					<div class="row">
-						<div class="col-md-12 headerseccion">
-							<img src="images/recetas.png" class="iconoseccion" class="img-responsive">
-							<h2 class="tituloseccion tituloseccion-sombra2">Recetas tradicionales</h2>
-						</div>
-						<div class="col-md-12">
-							<p class="parrafoseccion parrafoseccioncolor2">El ya conocido plato navideño no puede faltar por esta época. Conoce aquí la receta de cada uno de los alimentos que lo compone y haz tú mismo que esta dulce tradición siga vigente en tu hogar.</p>
-						</div>
-
-
-						<div class="row">
-
-
-							<div class="col-md-4">
-								<div class="card">
-									<div class="card-image">
-										<div class="fade-header"></div>
-										<img src="images/recetas/manjar.jpg">
-										<span class="card-title cards-title-shadow">Manjar blanco</span>
-									</div>
-									<div class="card-content">
-										<blockquote>
-											<p><b>Ingredientes:</b></p>
-											<p>15 botellas de leche</p>
-											<p>5 lb. de azúcar</p>
-											<p>2 cucharadas de arroz</p>
-											<p>Pasas o coco rayado o piña calada (opcionales para decorar)</p>
-											<p>Mates</p>
-										</blockquote>
-
-										<div id="rt-receta1" class="collapse cards-collapsed">
-											<p><strong>Preparación: </strong>Remojar el arroz en agua toda la noche. Molerlo. Agregarle un chorrito de leche y licuar. Colar con paño varias veces. Agregarle la leche y luego mezclar. Añadir el azúcar y revolver. Poner al fuego y seguir revolviendo
-												sin parar por 4 horas. Sirva en mates.</p>
-										</div>
-
-										<div class="cards-btn-center">
-											<a data-toggle="collapse" data-target="#rt-receta1" class="waves-effect waves-light btn">Preparación</a>
-										</div>
-
-									</div>
-								</div>
-							</div>
-
-							<div class="col-md-4">
-								<div class="card">
-									<div class="card-image">
-										<div class="fade-header"></div>
-										<img src="images/recetas/hojaldra.jpg">
-										<span class="card-title cards-title-shadow">Hojaldres</span>
-									</div>
-									<div class="card-content">
-										<blockquote>
-											<p><b>Ingredientes:</b></p>
-											<p>½ kg de harina de trigo cernida</p>
-											<p>4 huevos batidos</p>
-											<p>1 taza de jugo de naranja</p>
-											<p>125 gramos de mantequilla o margarina</p>
-											<p>Sal al gusto</p>
-										</blockquote>
-										<div id="rt-receta2" class="collapse cards-collapsed">
-											<p><strong>Preparación: </strong>Remojar la harina con el jugo de naranja y mezclar con el resto de ingredientes. Golpear la masa fuertemente contra la tabla Dejarla reposar un poco y extenderla lo más delgada posible. Cortar porciones levantarlas
-												y poner a freír en aceite no muy caliente hasta que doren.</p>
-										</div>
-										<div class="cards-btn-center">
-											<a data-toggle="collapse" data-target="#rt-receta2" class="waves-effect waves-light btn">Preparación</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="card">
-									<div class="card-image">
-										<div class="fade-header"></div>
-										<img src="images/recetas/desamargado.jpg">
-										<span class="card-title cards-title-shadow">Desamargado</span>
-									</div>
-									<div class="card-content">
-										<blockquote>
-											<p><b>Ingredientes:</b></p>
-											<p>Cáscaras de limón</p>
-											<p>Papaya verde</p>
-											<p>Papayuela</p>
-											<p>Toronja de cáscara roja</p>
-											<p>Cabello de ángel</p>
-											<p>Brevas</p>
-										</blockquote>
-										<div id="rt-receta3" class="collapse cards-collapsed">
-											<p><strong>Preparación: </strong>Se cocinan todos estos elementos hasta que estén tiernos, se dejan enfriar y al día siguiente se les cambia el agua. Esta misma operación se repite durante dos días más. Luego se adiciona la azúcar necesaria, de
-												acuerdo a la cantidad de almíbar que desee preparar. En cuanto al agua, preferiblemente ésta debe cubrir las frutas por completo. Se pone a cocinar hasta que empiece a dar el punto de almíbar. No lo revuelva, sólo controle la temperatura para
-												que no se arrebate. Deje enfriar sin tapar la olla, solamente con un paño encima.
-											</p>
-										</div>
-										<div class="cards-btn-center">
-											<a data-toggle="collapse" data-target="#rt-receta3" class="waves-effect waves-light btn">Preparación</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-
-						<div class="row">
-
-
-							<div class="col-md-4">
-								<div class="card">
-									<div class="card-image">
-										<div class="fade-header"></div>
-										<img src="images/recetas/natilla.jpg">
-										<span class="card-title cards-title-shadow">Natilla de maíz</span>
-									</div>
-									<div class="card-content">
-										<blockquote>
-											<p><b>Ingredientes (Para 10 personas):</b></p>
-											<p>1 botella de leche</p>
-											<p>¼ de panela</p>
-											<p>2 astillas de canela</p>
-											<p>4 clavos de olor</p>
-											<p>4 cucharadas de fécula de maíz disuelta en un poco de leche</p>
-											<p>2 cucharadas de mantequilla</p>
-											<p>Uvas pasas o coco si se quiere</p>
-											<p>Canela en polvo</p>
-											<p>Una pizquita de sal.</p>
-										</blockquote>
-
-										<div id="rt-receta4" class="collapse cards-collapsed">
-											<p><strong>Preparación: </strong>Poner la leche, la panela, la canela, los clavos y la sal a cocinar a fuego lento, revolviendo todo al tiempo con una cuchara de palo. Cuando empiece a hervir, agregar la fécula de maíz disuelta ya en un poco de
-												leche y seguir revolviendo. Luego añadir la mantequilla, dejar a fuego lento un poco más y bajarla. Verter en un molde refractario y dejarla enfriar y cuajar. Espolvorear un poco de canela en polvo y adornar con uvas pasas.</p>
-										</div>
-										<div class="cards-btn-center">
-											<a data-toggle="collapse" data-target="#rt-receta4" class="waves-effect waves-light btn">Preparación</a>
-										</div>
-
-									</div>
-								</div>
-							</div>
-
-							<div class="col-md-4">
-								<div class="card">
-									<div class="card-image">
-										<div class="fade-header"></div>
-										<img src="images/recetas/bunuelos.jpg">
-										<span class="card-title cards-title-shadow">Buñuelos</span>
-									</div>
-									<div class="card-content">
-										<blockquote>
-
-											<p><b>Ingredientes:</b></p>
-											<p>200 Gramos de queso costeño (queso fresco o queso feta)</p>
-											<p>120 Gramos de Fécula de maíz (maicena)</p>
-											<p>60 Gramos de Almidón de yuca</p>
-											<p>50 Gramos de Azúcar (¼ Taza)</p>
-											<p>2 Unidades de Huevos</p>
-											<p>5 Gramos de Sal</p>
-											<p>10 Gramos de Mantequilla</p>
-											<p>2 Gramos de Polvo de hornear</p>
-											<p>1 Litro de Aceite para freír</p>
-
-										</blockquote>
-
-
-										<div id="rt-receta5" class="collapse cards-collapsed">
-											<p><strong>Preparación: </strong>Mezcla en un recipiente todos los ingredientes secos, es decir, el queso rallado, el almidón de yuca, la fécula de maíz, el azúcar, la sal y el polvo de hornear.Agrega los huevos y la mantequilla blanca, luego
-												mezcla todos los ingredientes hasta obtener una masa homogénea y suave. Si la masa queda un poco seca se puede agregar leche hasta obtener la consistencia deseada.Arma bolas del mismo tamaño y pon a freír los buñuelos en aceite a 165°C durante
-												20 minutos, o hasta que veas que flotan y están dorados. Retira los buñuelos y ponlos sobre un papel absorbente y listo.</p>
-										</div>
-										<div class="cards-btn-center">
-											<a data-toggle="collapse" data-target="#rt-receta5" class="waves-effect waves-light btn">Preparación</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="card">
-									<div class="card-image">
-										<div class="fade-header"></div>
-										<img src="images/recetas/bunuelos.jpg">
-										<span class="card-title cards-title-shadow">Buñuelos</span>
-									</div>
-									<div class="card-content">
-										<blockquote>
-
-											<p><b>Ingredientes:</b></p>
-											<p>1 frasco de brevas en almíbar de 310 gr</p>
-											<p>250 gr. de harina</p>
-											<p>4 cucharadas de Arequipe</p>
-											<p>1 cucharada de mantequilla</p>
-											<p>2 huevos</p>
-											<p>Vainilla al gusto</p>
-											<p>200 gr. de crema de leche</p>
-
-										</blockquote>
-
-
-										<div id="rt-receta6" class="collapse cards-collapsed">
-											<p><strong>Preparación: </strong>Precalentar el horno a 170 grados. Cortar las brevas en cuartos. Mezclar la crema de leche con el arequipe, la mantequilla y la vainilla. Agregar los huevos, la harina y, por último, las brevas. Engrasar un molde
-												para horno o varios pequeños y llenar hasta un poco más de la mitad. Hornear de 25 a 30 minutos. Desmoldar la torta y espolvorear un poco de azúcar pulverizada o cubrir con pastillaje.</p>
-										</div>
-										<div class="cards-btn-center">
-											<a data-toggle="collapse" data-target="#rt-receta6" class="waves-effect waves-light btn">Preparación</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-
-					</div>
-
-				</div>
-			</div>
-
-
-			<!-- FOOTER -->
-			<div class="footer">
-				<div class="container">
-					<div class="row">
-
-						<div class="col-md-2 text-center">
-							<a href="http://elpais.com.co" target="_blank">
-               <img src="images/tilde.svg" id="tilde">
-						    </a>
-
-						</div>
-
-						<div class="col-md-7 text-center">
-
-
-							<p>El País S.A. © 2015 | Cra. 2 No.24-46 Tel. (+572) 8987000 | Cali, Colombia<br>
-								<a href="http://www.elpais.com.co/elpais/servicios/corporativos/privacidad" title="Política y tratamiento de datos" target="_blank">Política y Tratamiento de Datos</a> | <a href="http://www.elpais.com.co/elpais/servicios/corporativos/aviso-legal"
-								  title="Aviso Legal" target="_blank">Aviso Legal</a><br>Superintendencia de Industria y Comercio de Colombia
-						</div>
-
-						<div class=" col-md-3 text-center">
-							<p>SÍGUENOS:</p>
-
-
-
-
-							<ul class="fh5co-social">
-								<li><a href="http://www.facebook.com/diarioelpaiscali" title="Síguenos en Facebook" target="_blank"><i class="icon-facebook"></i></a></li>
-								<li><a href="http://www.twitter.com/elpaiscali" title="Síguenos en Twitter" target="_blank"><i class="icon-twitter"></i></a></li>
-								<li><a href="https://instagram.com/elpaiscali/" title="Síguenos en Instagram" target="_blank"><i class="icon-instagram"></i></a></li>
-								<li><a href="http://www.pinterest.com/elpaiscali/boards/" title="Síguenos en Pinterest" target="_blank"><i class="icon-pinterest"></i></a></li>
-								<li><a href="https://plus.google.com/115050330500575074656" title="Síguenos en Google+" target="_blank"><i class="icon-icon-gplus"></i></a></li>
-							</ul>
-
-
-
-						</div>
-
-						<div class="col-md-12 text-center">
-
-							<ul class="fh5co-social text-center">
-								<li><strong>Dirección:</strong> Carlos Rojas M. </li>
-								<li><strong>Contenido:</strong> Vivian Jaramillo O. | Carlos Arango S. </li>
-								<li><strong>Diseño:</strong> Sebastián Gómez Z. | Carlos Arango S. </li>
-								<!--<li><strong>Video:</strong> Carlos Arango S.</li>-->
-							</ul>
-
-
-
-						</div>
-
-
-
-
-
-
-					</div>
-
-				</div>
-			</div>
-
-
-
-
-
-
-			<!-- jQuery -->
-			<script src="js/jquery.min.js"></script>
-			<!-- jQuery Easing -->
-			<script src="js/jquery.easing.1.3.js"></script>
-			<!-- Bootstrap -->
-			<script src="js/bootstrap.min.js"></script>
-			<!-- Bootstrap DateTimePicker -->
-			<script src="js/moment.js"></script>
-			<script src="js/bootstrap-datetimepicker.min.js"></script>
-			<!-- Waypoints -->
-			<script src="js/jquery.waypoints.min.js"></script>
-			<!-- Stellar Parallax -->
-			<script src="js/jquery.stellar.min.js"></script>
-
-			<!-- Flexslider -->
-			<script src="js/jquery.flexslider-min.js"></script>
-			<script>
-				$(function() {
-					$('#date').datetimepicker();
-				});
-			</script>
-			<!-- Main JS -->
-			<script src="js/main.js"></script>
-
-
 		</div>
+
+		<div class="section2" data-section="features">
+			<div class="container">
+
+				<div class="row">
+					<div class="col-md-12 headerseccion">
+						<h2 class="tituloseccion tituloseccion-sombra2">Recetas tradicionales</h2>
+					</div>
+					<div class="col-md-12">
+						<p class="parrafoseccion parrafoseccioncolor2">El ya conocido plato navideño no puede faltar por esta época. Conoce aquí la receta de cada uno de los alimentos que lo compone y haz tú mismo que esta dulce tradición siga vigente en tu hogar.</p>
+					</div>
+
+
+					<div class="row">
+
+
+						<div class="col-md-4">
+							<div class="card">
+								<div class="card-image">
+									<div class="fade-header"></div>
+									<img src="images/recetas/manjar.jpg">
+									<span class="card-title cards-title-shadow">Manjar blanco</span>
+								</div>
+								<div class="card-content">
+									<blockquote>
+										<p><b>Ingredientes:</b></p>
+										<p>15 botellas de leche</p>
+										<p>5 lb. de azúcar</p>
+										<p>2 cucharadas de arroz</p>
+										<p>Pasas o coco rayado o piña calada (opcionales para decorar)</p>
+										<p>Mates</p>
+									</blockquote>
+
+									<div id="rt-receta1" class="collapse cards-collapsed">
+										<p><strong>Preparación: </strong>Remojar el arroz en agua toda la noche. Molerlo. Agregarle un chorrito de leche y licuar. Colar con paño varias veces. Agregarle la leche y luego mezclar. Añadir el azúcar y revolver. Poner al fuego y seguir revolviendo
+											sin parar por 4 horas. Sirva en mates.</p>
+									</div>
+
+									<div class="cards-btn-center">
+										<a data-toggle="collapse" data-target="#rt-receta1" class="waves-effect waves-light btn blue darken-1">Preparación</a>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<div class="card">
+								<div class="card-image">
+									<div class="fade-header"></div>
+									<img src="images/recetas/hojaldra.jpg">
+									<span class="card-title cards-title-shadow">Hojaldres</span>
+								</div>
+								<div class="card-content">
+									<blockquote>
+										<p><b>Ingredientes:</b></p>
+										<p>½ kg de harina de trigo cernida</p>
+										<p>4 huevos batidos</p>
+										<p>1 taza de jugo de naranja</p>
+										<p>125 gramos de mantequilla o margarina</p>
+										<p>Sal al gusto</p>
+									</blockquote>
+									<div id="rt-receta2" class="collapse cards-collapsed">
+										<p><strong>Preparación: </strong>Remojar la harina con el jugo de naranja y mezclar con el resto de ingredientes. Golpear la masa fuertemente contra la tabla Dejarla reposar un poco y extenderla lo más delgada posible. Cortar porciones levantarlas
+											y poner a freír en aceite no muy caliente hasta que doren.</p>
+									</div>
+									<div class="cards-btn-center">
+										<a data-toggle="collapse" data-target="#rt-receta2" class="waves-effect waves-light btn blue darken-1">Preparación</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card">
+								<div class="card-image">
+									<div class="fade-header"></div>
+									<img src="images/recetas/desamargado.jpg">
+									<span class="card-title cards-title-shadow">Desamargado</span>
+								</div>
+								<div class="card-content">
+									<blockquote>
+										<p><b>Ingredientes:</b></p>
+										<p>Cáscaras de limón</p>
+										<p>Papaya verde</p>
+										<p>Papayuela</p>
+										<p>Toronja de cáscara roja</p>
+										<p>Cabello de ángel</p>
+										<p>Brevas</p>
+									</blockquote>
+									<div id="rt-receta3" class="collapse cards-collapsed">
+										<p><strong>Preparación: </strong>Se cocinan todos estos elementos hasta que estén tiernos, se dejan enfriar y al día siguiente se les cambia el agua. Esta misma operación se repite durante dos días más. Luego se adiciona la azúcar necesaria, de
+											acuerdo a la cantidad de almíbar que desee preparar. En cuanto al agua, preferiblemente ésta debe cubrir las frutas por completo. Se pone a cocinar hasta que empiece a dar el punto de almíbar. No lo revuelva, sólo controle la temperatura para
+											que no se arrebate. Deje enfriar sin tapar la olla, solamente con un paño encima.
+										</p>
+									</div>
+									<div class="cards-btn-center">
+										<a data-toggle="collapse" data-target="#rt-receta3" class="waves-effect waves-light btn blue darken-1">Preparación</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="row">
+
+
+						<div class="col-md-4">
+							<div class="card">
+								<div class="card-image">
+									<div class="fade-header"></div>
+									<img src="images/recetas/natilla.jpg">
+									<span class="card-title cards-title-shadow">Natilla de maíz</span>
+								</div>
+								<div class="card-content">
+									<blockquote>
+										<p><b>Ingredientes (Para 10 personas):</b></p>
+										<p>1 botella de leche</p>
+										<p>¼ de panela</p>
+										<p>2 astillas de canela</p>
+										<p>4 clavos de olor</p>
+										<p>4 cucharadas de fécula de maíz disuelta en un poco de leche</p>
+										<p>2 cucharadas de mantequilla</p>
+										<p>Uvas pasas o coco si se quiere</p>
+										<p>Canela en polvo</p>
+										<p>Una pizquita de sal.</p>
+									</blockquote>
+
+									<div id="rt-receta4" class="collapse cards-collapsed">
+										<p><strong>Preparación: </strong>Poner la leche, la panela, la canela, los clavos y la sal a cocinar a fuego lento, revolviendo todo al tiempo con una cuchara de palo. Cuando empiece a hervir, agregar la fécula de maíz disuelta ya en un poco de
+											leche y seguir revolviendo. Luego añadir la mantequilla, dejar a fuego lento un poco más y bajarla. Verter en un molde refractario y dejarla enfriar y cuajar. Espolvorear un poco de canela en polvo y adornar con uvas pasas.</p>
+									</div>
+									<div class="cards-btn-center">
+										<a data-toggle="collapse" data-target="#rt-receta4" class="waves-effect waves-light btn blue darken-1">Preparación</a>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<div class="card">
+								<div class="card-image">
+									<div class="fade-header"></div>
+									<img src="images/recetas/bunuelos.jpg">
+									<span class="card-title cards-title-shadow">Buñuelos</span>
+								</div>
+								<div class="card-content">
+									<blockquote>
+
+										<p><b>Ingredientes:</b></p>
+										<p>200 Gramos de queso costeño (queso fresco o queso feta)</p>
+										<p>120 Gramos de Fécula de maíz (maicena)</p>
+										<p>60 Gramos de Almidón de yuca</p>
+										<p>50 Gramos de Azúcar (¼ Taza)</p>
+										<p>2 Unidades de Huevos</p>
+										<p>5 Gramos de Sal</p>
+										<p>10 Gramos de Mantequilla</p>
+										<p>2 Gramos de Polvo de hornear</p>
+										<p>1 Litro de Aceite para freír</p>
+
+									</blockquote>
+
+
+									<div id="rt-receta5" class="collapse cards-collapsed">
+										<p><strong>Preparación: </strong>Mezcla en un recipiente todos los ingredientes secos, es decir, el queso rallado, el almidón de yuca, la fécula de maíz, el azúcar, la sal y el polvo de hornear.Agrega los huevos y la mantequilla blanca, luego mezcla
+											todos los ingredientes hasta obtener una masa homogénea y suave. Si la masa queda un poco seca se puede agregar leche hasta obtener la consistencia deseada.Arma bolas del mismo tamaño y pon a freír los buñuelos en aceite a 165°C durante 20
+											minutos, o hasta que veas que flotan y están dorados. Retira los buñuelos y ponlos sobre un papel absorbente y listo.</p>
+									</div>
+									<div class="cards-btn-center">
+										<a data-toggle="collapse" data-target="#rt-receta5" class="waves-effect waves-light btn blue darken-1">Preparación</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card">
+								<div class="card-image">
+									<div class="fade-header"></div>
+									<img src="images/recetas/bunuelos.jpg">
+									<span class="card-title cards-title-shadow">Buñuelos</span>
+								</div>
+								<div class="card-content">
+									<blockquote>
+
+										<p><b>Ingredientes:</b></p>
+										<p>1 frasco de brevas en almíbar de 310 gr</p>
+										<p>250 gr. de harina</p>
+										<p>4 cucharadas de Arequipe</p>
+										<p>1 cucharada de mantequilla</p>
+										<p>2 huevos</p>
+										<p>Vainilla al gusto</p>
+										<p>200 gr. de crema de leche</p>
+
+									</blockquote>
+
+
+									<div id="rt-receta6" class="collapse cards-collapsed">
+										<p><strong>Preparación: </strong>Precalentar el horno a 170 grados. Cortar las brevas en cuartos. Mezclar la crema de leche con el arequipe, la mantequilla y la vainilla. Agregar los huevos, la harina y, por último, las brevas. Engrasar un molde
+											para horno o varios pequeños y llenar hasta un poco más de la mitad. Hornear de 25 a 30 minutos. Desmoldar la torta y espolvorear un poco de azúcar pulverizada o cubrir con pastillaje.</p>
+									</div>
+									<div class="cards-btn-center">
+										<a data-toggle="collapse" data-target="#rt-receta6" class="waves-effect waves-light btn blue darken-1">Preparación</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+
+			</div>
+		</div>
+
+
+		<!-- FOOTER -->
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-2 text-center">
+						<a href="http://elpais.com.co" target="_blank">
+							<img src="images/tilde.svg" id="tilde">
+						</a>
+
+					</div>
+
+					<div class="col-md-7 text-center">
+
+
+						<p>El País S.A. © 2015 | Cra. 2 No.24-46 Tel. (+572) 8987000 | Cali, Colombia<br>
+							<a href="http://www.elpais.com.co/elpais/servicios/corporativos/privacidad" title="Política y tratamiento de datos" target="_blank">Política y Tratamiento de Datos</a> |
+							<a href="http://www.elpais.com.co/elpais/servicios/corporativos/aviso-legal"
+											title="Aviso Legal" target="_blank">Aviso Legal</a><br>Superintendencia de Industria y Comercio de Colombia
+					</div>
+
+					<div class=" col-md-3 text-center">
+						<p>SÍGUENOS:</p>
+
+
+
+
+						<ul class="fh5co-social">
+							<li><a href="http://www.facebook.com/diarioelpaiscali" title="Síguenos en Facebook" target="_blank"><i class="icon-facebook"></i></a></li>
+							<li><a href="http://www.twitter.com/elpaiscali" title="Síguenos en Twitter" target="_blank"><i class="icon-twitter"></i></a></li>
+							<li><a href="https://instagram.com/elpaiscali/" title="Síguenos en Instagram" target="_blank"><i class="icon-instagram"></i></a></li>
+							<li><a href="http://www.pinterest.com/elpaiscali/boards/" title="Síguenos en Pinterest" target="_blank"><i class="icon-pinterest"></i></a></li>
+							<li><a href="https://plus.google.com/115050330500575074656" title="Síguenos en Google+" target="_blank"><i class="icon-icon-gplus"></i></a></li>
+						</ul>
+
+
+
+					</div>
+
+					<div class="col-md-12 text-center">
+
+						<ul class="fh5co-social text-center">
+							<li><strong>Dirección:</strong> Carlos Rojas M. </li>
+							<li><strong>Contenido:</strong> Vivian Jaramillo O. | Carlos Arango S. </li>
+							<li><strong>Diseño:</strong> Sebastián Gómez Z. | Carlos Arango S. </li>
+							<!--<li><strong>Video:</strong> Carlos Arango S.</li>-->
+						</ul>
+
+
+
+					</div>
+
+
+
+
+
+
+				</div>
+
+			</div>
+		</div>
+
+
+
+
+
+
+		<!-- jQuery -->
+		<script src="js/jquery.min.js"></script>
+		<!-- jQuery Easing -->
+		<script src="js/jquery.easing.1.3.js"></script>
+		<!-- Bootstrap -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Bootstrap DateTimePicker -->
+		<script src="js/moment.js"></script>
+		<script src="js/bootstrap-datetimepicker.min.js"></script>
+		<!-- Waypoints -->
+		<script src="js/jquery.waypoints.min.js"></script>
+		<!-- Stellar Parallax -->
+		<script src="js/jquery.stellar.min.js"></script>
+
+		<!-- Flexslider -->
+		<script src="js/jquery.flexslider-min.js"></script>
+		<script type="text/javascript" src="js/materialize.min.js"></script>
+		<script src="js/modernizr-2.6.2.min.js"></script>
+		<script>
+			$(function() {
+				$('#date').datetimepicker();
+			});
+		</script>
+		<!-- Main JS -->
+		<script src="js/main.js"></script>
+		<script src="js/custom-functions.js"></script>
+	</div>
+
 </body>
 
 </html>
